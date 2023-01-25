@@ -1,0 +1,153 @@
+
+
+.wrapper-news {
+	font-family: 'PT Sans Caption',"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 3vh;
+}
+
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 5vh;
+  font-weight: bold;
+}
+	
+#menu-icon {
+  font-family: Geneva, sans-serif;
+  font-size: 6vh;
+}
+.lagout
+{
+	font-size: 18px !important;
+   font-family: 'Lato', sans-serif;
+   color: black;
+   font-weight: 600;
+   padding-left: 20px;
+   padding-top: 15px;
+   padding-bottom: 20px;
+}
+.lagout:hover
+{
+	background-color:rgb(233, 238, 243);
+}
+.about:hover
+{
+	background-color: rgb(233, 238, 243);
+}
+.about
+{
+	font-size: 18px !important;
+   font-family: 'Lato', sans-serif;
+   color: black;
+   font-weight: 600;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-bottom: 15px;
+}
+.hero {
+	justify-content: space-between;
+	padding: 2.5em;
+	box-sizing: border-box;
+	color: white;
+	background: url(https://images.unsplash.com/photo-1500417148159-68083bd7333a) center center no-repeat;
+	background-size: cover;
+    padding-bottom: 0px;
+}
+
+.hero-title {
+	max-width: 16em;
+	margin: 0;
+	font-size: 12vh;
+	font-weight: bold;
+	line-height: .9;
+    margin-bottom: 30px;
+}
+	
+	@media only screen and (min-width: 32em) { .hero-title {  } }	
+
+.hero-footer {
+	display: flex;
+	margin-bottom: 1em;
+    bottom: auto !important;
+    margin-top: 70px;
+    background-color: transparent !important;
+    position:initial !important;
+}
+
+.button {
+	padding: .7em .8em;
+	color: white;
+	text-decoration: none;
+	border: .1em solid white;
+    font-size: 30px;
+
+}
+.popup__photo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+	margin-right: 40px;
+  }
+  .MuiDialog-paperWidthSm {
+    max-width: 75% !important;
+}
+  img {
+	width: auto;
+	height: 100%;
+  }
+.menu-wrapper
+{
+	margin-right: 100px;
+}
+.menu-icon
+{
+	cursor:pointer;
+}
+.info
+{
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+.logout
+{
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+	.menu
+	{
+		width: 180px;
+		background-color: whitesmoke;
+		border-radius: 4px;
+		cursor: pointer;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+	}
+	.button-primary {
+        font-size: 30px;
+        padding: .7em .8em;
+	text-decoration: none;
+	border: .1em solid white;
+		color: black;
+		background-color: white;
+	}
+.button-wrapper
+{
+    padding-left: 118px;
+    padding-bottom: 7px;
+}
+article {
+	max-width: 36em;
+	margin: 0 auto;
+	padding: 1em;
+}	
